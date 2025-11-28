@@ -62,6 +62,8 @@ After installation, simply run `interpreter`:
 interpreter
 ```
 
+Open Interpreter will default to OpenAI's **GPT-4o** and will ask you to enter a key, which you can obtain from [OpenAI's API keys page](https://platform.openai.com/api-keys).  For other providers or local models, see below.
+
 ### Python
 
 ```python
