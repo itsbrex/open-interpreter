@@ -194,9 +194,9 @@ interpreter.llm.model = "gpt-3.5-turbo"
 
 #### Terminal
 
-Open Interpreter can use OpenAI-compatible server to run models locally. (LM Studio, jan.ai, ollama etc)
+Open Interpreter can use OpenAI-compatible server to run models locally (in LM Studio, Jan.ai, Ollama, etc.)
 
-Simply run `interpreter` with the api_base URL of your inference server (for LM studio it is `http://localhost:1234/v1` by default):
+Simply run `interpreter` with the `api_base` URL of your inference server (for LM Studio it is `http://localhost:1234/v1` by default):
 
 ```shell
 interpreter --api_base "http://localhost:1234/v1" --api_key "fake_key"
