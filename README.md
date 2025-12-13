@@ -52,7 +52,7 @@ This provides a natural-language interface to your computer's general-purpose ca
 pip install git+https://github.com/OpenInterpreter/open-interpreter.git
 ```
 
-> Not working? Read our [setup guide](https://docs.openinterpreter.com/getting-started/setup).
+> See our [setup guide](https://docs.openinterpreter.com/getting-started/setup) for optional dependencies.
 
 ### Terminal
 
