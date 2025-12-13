@@ -82,7 +82,7 @@ OpenAI's release of [Code Interpreter](https://openai.com/blog/chatgpt-plugins#c
 However, OpenAI's service is hosted, closed-source, and heavily restricted:
 
 - No internet access.
-- [Limited set of pre-installed packages](https://wfhbrian.com/mastering-chatgpts-code-interpreter-list-of-python-packages/).
+- [Limited set of pre-installed packages](https://wfhbrian.com/artificial-intelligence/mastering-chatgpts-code-interpreter-list-of-python-packages/).
 - 100 MB maximum upload, 120.0 second runtime limit.
 - State is cleared (along with any generated files or links) when the environment dies.
 
@@ -348,7 +348,7 @@ There is **experimental** support for a [safe mode](https://github.com/OpenInter
 
 ## How Does it Work?
 
-Open Interpreter equips a [function-calling language model](https://platform.openai.com/docs/guides/gpt/function-calling) with an `exec()` function, which accepts a `language` (like "Python" or "JavaScript") and `code` to run.
+Open Interpreter equips a [function-calling language model](https://platform.openai.com/docs/guides/function-calling) with an `exec()` function, which accepts a `language` (like "Python" or "JavaScript") and `code` to run.
 
 We then stream the model's messages, code, and your system's outputs to the terminal as Markdown.
 
