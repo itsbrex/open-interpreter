@@ -212,7 +212,7 @@ for a more detailed guide check out [this video by Mike Bird](https://www.youtub
 
 **How to run LM Studio in the background.**
 
-1. Download [https://lmstudio.ai/](https://lmstudio.ai/) then start it.
+1. Download [LM Studio](https://lmstudio.ai/) then start it.
 2. Select a model then click **↓ Download**.
 3. Click the **↔️** button on the left (below 💬).
 4. Select your model at the top, then click **Start Server**.
