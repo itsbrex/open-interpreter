@@ -52,7 +52,7 @@ This provides a natural-language interface to your computer's general-purpose ca
 pip install git+https://github.com/OpenInterpreter/open-interpreter.git
 ```
 
-> Not working? Read our [setup guide](https://docs.openinterpreter.com/getting-started/setup).
+> See our [setup guide](https://docs.openinterpreter.com/getting-started/setup) for optional dependencies.
 
 ### Terminal
 
@@ -61,6 +61,8 @@ After installation, simply run `interpreter`:
 ```shell
 interpreter
 ```
+
+Open Interpreter will default to OpenAI's **GPT-4o** and will ask you to enter a key, which you can obtain from [OpenAI's API keys page](https://platform.openai.com/api-keys).  For other providers or local models, see below.
 
 ### Python
 
